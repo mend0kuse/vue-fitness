@@ -1,10 +1,10 @@
 export const APP_ROUTES: Record<string, { path: string; name: string }> = {
   HOME: {
     path: '/',
-    name: 'home'
+    name: 'Главная'
   },
   ABOUT: {
     path: '/about',
-    name: 'about'
+    name: 'О нас'
   }
-}
+} as const
