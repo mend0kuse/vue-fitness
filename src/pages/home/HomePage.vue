@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import AppLayout from '../../layout/AppLayout.vue'
+import AppLayout from '@/layout/AppLayout.vue'
 import { useUnit } from 'effector-vue/composition'
 import { $count, incremented } from './model'
 

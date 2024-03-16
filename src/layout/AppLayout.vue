@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import DefaultLayout from './DefaultLayout.vue'
-import { APP_ROUTES } from '../shared/routing'
-</script>
-
 <template>
   <default-layout class="app-layout">
     <template #header>
@@ -25,3 +20,8 @@ import { APP_ROUTES } from '../shared/routing'
     </template>
   </default-layout>
 </template>
+
+<script setup lang="ts">
+import DefaultLayout from './DefaultLayout.vue'
+import { APP_ROUTES } from '@/shared/routing'
+</script>
